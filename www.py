@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from application import app
+from web.interceptors.Authinterceptor import *
+
 from web.controllers.index import route_index
 from web.controllers.user.User import route_user
 from web.controllers.static import route_static

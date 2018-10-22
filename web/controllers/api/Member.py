@@ -8,6 +8,7 @@ from common.models.member.OauthMemberBind import OauthMemberBind
 from common.models.member.Member import Member
 import datetime
 
+# 微信登录获取用户信息接口
 @route_api.route("/member/login",methods=["GET","POST"])
 def login():
 
